@@ -1,0 +1,30 @@
+---
+Name: bbp-blocks
+After:
+  - 'framework/*'
+  - 'cms/*'
+  - 'blocks/*'
+Only:
+  moduleexists: 'cms'
+  moduleexists: 'blocks'
+---
+Block:
+  extensions:
+    - HideBlockExtension
+CallToActionBlock:
+  extensions:
+    - HideTitleExtension
+    - ImageAlignmentExtension
+ContentBlock:
+  extensions:
+    - HideTitleExtension
+FullWidthImageBlock:
+  extensions:
+    - ImageAlignmentExtension
+TextAndImageBlock:
+  extensions:
+    - MediaPositionExtension
+    - ImageAlignmentExtension
+    - HideMediaForScreenSizeExtension
+    - HideTextForScreenSizeExtension
+    - HideTitleExtension

@@ -1,0 +1,24 @@
+{
+  "name": "biffbangpow/bbp-blocks",
+  "description": "A selection of blocks and extensions to allow for rapid SilverStripe development.",
+  "version": "0.1.0",
+  "keywords": [
+    "silverstripe",
+    "block"
+  ],
+  "type": "silverstripe-module",
+  "require": {
+    "sheadawson/silverstripe-blocks": "^1.1",
+    "sheadawson/silverstripe-linkable": "^1.3"
+  },
+  "extra": {
+    "installer-name": "bbp-blocks"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "James Heathcote",
+      "email": "james.h@biffbangpow.com"
+    }
+  ]
+}
