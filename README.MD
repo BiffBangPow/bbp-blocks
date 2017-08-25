@@ -8,7 +8,7 @@ Adds some basic blocks and extensions to allow for rapid SilverStripe developmen
 
 ## Installation
 ```
-composer require biffbangpow/bbp-blocks
+composer require BiffBangPow/bbp-blocks
 ```
 
 ## Usage
