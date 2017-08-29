@@ -1,5 +1,5 @@
 {
-  "name": "biffbangpow/bbp-blocks",
+  "name": "biffbangpow/silverstripe-bbp-blocks",
   "description": "A selection of blocks and extensions to allow for rapid SilverStripe development.",
   "version": "0.1.0",
   "keywords": [
